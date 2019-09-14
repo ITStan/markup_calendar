@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 30px 0;
+}
+
+$days: ("mon", "tue", "wed", "thu", "fri", "sat", "sun");
+$days-number: 30;
+
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 100px);
+    grid-gap: 1px;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+
+}
+
+.calendar > div {
+    width: 100px;
+    height: 100px;
+    background-color: #eeeeee;
+    border: 1px solid black;
+    box-sizing: border-box;
+    line-height:  100px;
+    align-items: center;
+    display: block;
+    text-align: center;
+}
+
+@for $i from 1 through 31 {
+    .calendar-#{$i} {
+        transition: background-color 0.5s, transform 0.5s;
+    }
+
+    .calendar div:nth-child(#{$i})::after {
+        content: "#{$i}";
+
+    }
+
+    .calendar-#{$i} div:hover {
+        background-color: pink;
+        cursor: pointer;
+        transform: translateY(-20px);
+    }
+}
+
+$number: 1;
+@each $day-name in $days {
+    .calendar-#{$day-name} > div:nth-child(1) {
+        grid-column-start: #{$number};
+    }
+    $number: $number + 1;
+}

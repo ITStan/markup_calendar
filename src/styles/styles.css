@@ -1,0 +1,490 @@
+body {
+  margin: 0;
+  padding: 30px 0;
+}
+
+.calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 100px);
+  grid-gap: 1px;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  font-size: 30px;
+}
+
+.calendar > div {
+  width: 100px;
+  height: 100px;
+  background-color: #eeeeee;
+  border: 1px solid black;
+  box-sizing: border-box;
+  line-height: 100px;
+  align-items: center;
+  display: block;
+  text-align: center;
+}
+
+.calendar-1 {
+  transition: background-color 0.5s, transform 0.5s;
+}
+
+.calendar div:nth-child(1)::after {
+  content: "1";
+}
+
+.calendar-1 div:hover {
+  background-color: pink;
+  cursor: pointer;
+  transform: translateY(-20px);
+}
+
+.calendar-2 {
+  transition: background-color 0.5s, transform 0.5s;
+}
+
+.calendar div:nth-child(2)::after {
+  content: "2";
+}
+
+.calendar-2 div:hover {
+  background-color: pink;
+  cursor: pointer;
+  transform: translateY(-20px);
+}
+
+.calendar-3 {
+  transition: background-color 0.5s, transform 0.5s;
+}
+
+.calendar div:nth-child(3)::after {
+  content: "3";
+}
+
+.calendar-3 div:hover {
+  background-color: pink;
+  cursor: pointer;
+  transform: translateY(-20px);
+}
+
+.calendar-4 {
+  transition: background-color 0.5s, transform 0.5s;
+}
+
+.calendar div:nth-child(4)::after {
+  content: "4";
+}
+
+.calendar-4 div:hover {
+  background-color: pink;
+  cursor: pointer;
+  transform: translateY(-20px);
+}
+
+.calendar-5 {
+  transition: background-color 0.5s, transform 0.5s;
+}
+
+.calendar div:nth-child(5)::after {
+  content: "5";
+}
+
+.calendar-5 div:hover {
+  background-color: pink;
+  cursor: pointer;
+  transform: translateY(-20px);
+}
+
+.calendar-6 {
+  transition: background-color 0.5s, transform 0.5s;
+}
+
+.calendar div:nth-child(6)::after {
+  content: "6";
+}
+
+.calendar-6 div:hover {
+  background-color: pink;
+  cursor: pointer;
+  transform: translateY(-20px);
+}
+
+.calendar-7 {
+  transition: background-color 0.5s, transform 0.5s;
+}
+
+.calendar div:nth-child(7)::after {
+  content: "7";
+}
+
+.calendar-7 div:hover {
+  background-color: pink;
+  cursor: pointer;
+  transform: translateY(-20px);
+}
+
+.calendar-8 {
+  transition: background-color 0.5s, transform 0.5s;
+}
+
+.calendar div:nth-child(8)::after {
+  content: "8";
+}
+
+.calendar-8 div:hover {
+  background-color: pink;
+  cursor: pointer;
+  transform: translateY(-20px);
+}
+
+.calendar-9 {
+  transition: background-color 0.5s, transform 0.5s;
+}
+
+.calendar div:nth-child(9)::after {
+  content: "9";
+}
+
+.calendar-9 div:hover {
+  background-color: pink;
+  cursor: pointer;
+  transform: translateY(-20px);
+}
+
+.calendar-10 {
+  transition: background-color 0.5s, transform 0.5s;
+}
+
+.calendar div:nth-child(10)::after {
+  content: "10";
+}
+
+.calendar-10 div:hover {
+  background-color: pink;
+  cursor: pointer;
+  transform: translateY(-20px);
+}
+
+.calendar-11 {
+  transition: background-color 0.5s, transform 0.5s;
+}
+
+.calendar div:nth-child(11)::after {
+  content: "11";
+}
+
+.calendar-11 div:hover {
+  background-color: pink;
+  cursor: pointer;
+  transform: translateY(-20px);
+}
+
+.calendar-12 {
+  transition: background-color 0.5s, transform 0.5s;
+}
+
+.calendar div:nth-child(12)::after {
+  content: "12";
+}
+
+.calendar-12 div:hover {
+  background-color: pink;
+  cursor: pointer;
+  transform: translateY(-20px);
+}
+
+.calendar-13 {
+  transition: background-color 0.5s, transform 0.5s;
+}
+
+.calendar div:nth-child(13)::after {
+  content: "13";
+}
+
+.calendar-13 div:hover {
+  background-color: pink;
+  cursor: pointer;
+  transform: translateY(-20px);
+}
+
+.calendar-14 {
+  transition: background-color 0.5s, transform 0.5s;
+}
+
+.calendar div:nth-child(14)::after {
+  content: "14";
+}
+
+.calendar-14 div:hover {
+  background-color: pink;
+  cursor: pointer;
+  transform: translateY(-20px);
+}
+
+.calendar-15 {
+  transition: background-color 0.5s, transform 0.5s;
+}
+
+.calendar div:nth-child(15)::after {
+  content: "15";
+}
+
+.calendar-15 div:hover {
+  background-color: pink;
+  cursor: pointer;
+  transform: translateY(-20px);
+}
+
+.calendar-16 {
+  transition: background-color 0.5s, transform 0.5s;
+}
+
+.calendar div:nth-child(16)::after {
+  content: "16";
+}
+
+.calendar-16 div:hover {
+  background-color: pink;
+  cursor: pointer;
+  transform: translateY(-20px);
+}
+
+.calendar-17 {
+  transition: background-color 0.5s, transform 0.5s;
+}
+
+.calendar div:nth-child(17)::after {
+  content: "17";
+}
+
+.calendar-17 div:hover {
+  background-color: pink;
+  cursor: pointer;
+  transform: translateY(-20px);
+}
+
+.calendar-18 {
+  transition: background-color 0.5s, transform 0.5s;
+}
+
+.calendar div:nth-child(18)::after {
+  content: "18";
+}
+
+.calendar-18 div:hover {
+  background-color: pink;
+  cursor: pointer;
+  transform: translateY(-20px);
+}
+
+.calendar-19 {
+  transition: background-color 0.5s, transform 0.5s;
+}
+
+.calendar div:nth-child(19)::after {
+  content: "19";
+}
+
+.calendar-19 div:hover {
+  background-color: pink;
+  cursor: pointer;
+  transform: translateY(-20px);
+}
+
+.calendar-20 {
+  transition: background-color 0.5s, transform 0.5s;
+}
+
+.calendar div:nth-child(20)::after {
+  content: "20";
+}
+
+.calendar-20 div:hover {
+  background-color: pink;
+  cursor: pointer;
+  transform: translateY(-20px);
+}
+
+.calendar-21 {
+  transition: background-color 0.5s, transform 0.5s;
+}
+
+.calendar div:nth-child(21)::after {
+  content: "21";
+}
+
+.calendar-21 div:hover {
+  background-color: pink;
+  cursor: pointer;
+  transform: translateY(-20px);
+}
+
+.calendar-22 {
+  transition: background-color 0.5s, transform 0.5s;
+}
+
+.calendar div:nth-child(22)::after {
+  content: "22";
+}
+
+.calendar-22 div:hover {
+  background-color: pink;
+  cursor: pointer;
+  transform: translateY(-20px);
+}
+
+.calendar-23 {
+  transition: background-color 0.5s, transform 0.5s;
+}
+
+.calendar div:nth-child(23)::after {
+  content: "23";
+}
+
+.calendar-23 div:hover {
+  background-color: pink;
+  cursor: pointer;
+  transform: translateY(-20px);
+}
+
+.calendar-24 {
+  transition: background-color 0.5s, transform 0.5s;
+}
+
+.calendar div:nth-child(24)::after {
+  content: "24";
+}
+
+.calendar-24 div:hover {
+  background-color: pink;
+  cursor: pointer;
+  transform: translateY(-20px);
+}
+
+.calendar-25 {
+  transition: background-color 0.5s, transform 0.5s;
+}
+
+.calendar div:nth-child(25)::after {
+  content: "25";
+}
+
+.calendar-25 div:hover {
+  background-color: pink;
+  cursor: pointer;
+  transform: translateY(-20px);
+}
+
+.calendar-26 {
+  transition: background-color 0.5s, transform 0.5s;
+}
+
+.calendar div:nth-child(26)::after {
+  content: "26";
+}
+
+.calendar-26 div:hover {
+  background-color: pink;
+  cursor: pointer;
+  transform: translateY(-20px);
+}
+
+.calendar-27 {
+  transition: background-color 0.5s, transform 0.5s;
+}
+
+.calendar div:nth-child(27)::after {
+  content: "27";
+}
+
+.calendar-27 div:hover {
+  background-color: pink;
+  cursor: pointer;
+  transform: translateY(-20px);
+}
+
+.calendar-28 {
+  transition: background-color 0.5s, transform 0.5s;
+}
+
+.calendar div:nth-child(28)::after {
+  content: "28";
+}
+
+.calendar-28 div:hover {
+  background-color: pink;
+  cursor: pointer;
+  transform: translateY(-20px);
+}
+
+.calendar-29 {
+  transition: background-color 0.5s, transform 0.5s;
+}
+
+.calendar div:nth-child(29)::after {
+  content: "29";
+}
+
+.calendar-29 div:hover {
+  background-color: pink;
+  cursor: pointer;
+  transform: translateY(-20px);
+}
+
+.calendar-30 {
+  transition: background-color 0.5s, transform 0.5s;
+}
+
+.calendar div:nth-child(30)::after {
+  content: "30";
+}
+
+.calendar-30 div:hover {
+  background-color: pink;
+  cursor: pointer;
+  transform: translateY(-20px);
+}
+
+.calendar-31 {
+  transition: background-color 0.5s, transform 0.5s;
+}
+
+.calendar div:nth-child(31)::after {
+  content: "31";
+}
+
+.calendar-31 div:hover {
+  background-color: pink;
+  cursor: pointer;
+  transform: translateY(-20px);
+}
+
+.calendar-mon > div:nth-child(1) {
+  grid-column-start: 1;
+}
+
+.calendar-tue > div:nth-child(1) {
+  grid-column-start: 2;
+}
+
+.calendar-wed > div:nth-child(1) {
+  grid-column-start: 3;
+}
+
+.calendar-thu > div:nth-child(1) {
+  grid-column-start: 4;
+}
+
+.calendar-fri > div:nth-child(1) {
+  grid-column-start: 5;
+}
+
+.calendar-sat > div:nth-child(1) {
+  grid-column-start: 6;
+}
+
+.calendar-sun > div:nth-child(1) {
+  grid-column-start: 7;
+}
+
+/*# sourceMappingURL=styles.css.map */
